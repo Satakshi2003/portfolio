@@ -1,0 +1,298 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height:100vh;
+    width:100%;
+    background-image:url(https://wallpaperaccess.com/full/5652030.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 56px;
+    padding-left: 7%;
+}
+.logo{
+    color: darkolivegreen;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 13px 36px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: brown;
+    transition: .4s;
+}
+.btn{
+    background-color: brown;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 15px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform:scale(1.2);  
+}
+.content{
+    position:absolute;
+    top: 44%;
+    left: 21%;
+    transform: translate(-50%);
+}
+h1{
+  color: aquamarine;
+  margin: 20px 0px 20px;  
+  font-size: 75px;
+}
+h3{
+    color: white;
+    font-size: 23px;
+    margin-bottom: -1px;
+}
+h2{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.newslatter form{
+    width: 335px;
+    max-width: 100%;
+    position: relative;
+    padding-top: 3%;
+}
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid;
+    outline: none;
+    border-radius: 30px;
+}
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 11px 24px;
+    border-radius: 19px;
+    background-color: brown;
+    color: white;
+    box-shadow: grey;
+    top: 19px;
+    right: 5px;
+}
+.about{
+    width: 100%;
+    padding: 181px 0px;
+    background-color: rgba(18, 9, 23, 0.271);
+
+}
+.about img{
+    height: auto;
+    width: 390px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: rgb(161, 80, 98);
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: rgb(82, 133, 159);
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: rgb(24, 20, 27);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button{
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background-color: transparent;
+    border:2px solid brown;
+    cursor: pointer;
+}
+.Skills{
+    background: rgb(149, 123, 123);
+    width: 100%;
+    padding:100px 0px;
+}
+.title h2{
+    color:rgb(161, 80, 98);;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 591px;
+}
+.card{
+    height: 395px;
+    width: 335px;
+    padding: 34px 37px;
+    border-radius: 39px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    background: #191919;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: rgb(69, 165, 42);
+}
+h5{
+    color:white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: blueviolet;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color: brown;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid brown;
+    cursor: pointer;
+}
+.contact-me{
+    width: 100% 0px;
+    height: 270px;
+    background: rgb(227, 195, 195);
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-me p{
+    color: rgb(161, 80, 98);;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.contact-me .button-two{
+    background-color: brown;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.contact-me .button-two:hover{
+    background-color: transparent;
+    background-color: brown;
+    cursor: pointer;
+}   
+footer{
+    position: relative;
+    width: 100% 0px;
+    height: 400px;
+    background:rgb(176, 151, 172);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    color: black;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+.social{
+    display: flex;
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(156, 141, 121);
+    margin:22px 10px;
+    color: rgb(10, 9, 9);
+    text-decoration: none;
+    font-size: 20px;
+}
+.social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+.end{
+    position: absolute;
+    color: brown;
+    bottom: 35px;
+    font-size: 14px;
+}
